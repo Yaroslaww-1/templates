@@ -1,0 +1,17 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20%;
+}
+
+.page {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}

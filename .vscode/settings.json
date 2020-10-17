@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Usecase",
+    "nestjs",
+    "reduxjs",
+    "typesafe"
+  ],
+  "eslint.workingDirectories": [
+    "./client",
+    "./server",
+  ]
+}
