@@ -4,12 +4,11 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 import * as dotenv from 'dotenv';
 dotenv.config();
 import { RootModule } from '@application/modules/root.module';
-import { ServerApplicationConfig } from '@config/server-application.config';
+import ServerApplicationConfig from '@config/server-application.config';
 
 export class ServerApplication {
-  private readonly host: string = ServerApplicationConfig.HOST;
-
-  private readonly port = ServerApplicationConfig.PORT;
+  private readonly host: string = ServerApplicationConfig.host;
+  private readonly port = ServerApplicationConfig.port;
 
   public static new(): ServerApplication {
     return new ServerApplication();
